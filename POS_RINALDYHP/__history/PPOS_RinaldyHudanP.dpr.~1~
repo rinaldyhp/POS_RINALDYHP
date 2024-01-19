@@ -1,0 +1,14 @@
+program PPOS_RinaldyHudanP;
+
+uses
+  Vcl.Forms,
+  UPOS_RinaldyHudanP in 'UPOS_RinaldyHudanP.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
